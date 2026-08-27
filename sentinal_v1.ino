@@ -1,3 +1,12 @@
+/* sentinel version 1 scans the nearby local wirless networks and gives the following outputs 
+SSID 
+BSSID
+RSSI
+Channel
+Security type
+Timestamp*/
+
+
 #include <WiFi.h>
 
 void setup() {
