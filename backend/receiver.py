@@ -18,9 +18,9 @@ ser = serial.Serial(PORT, BAUD_RATE, timeout=1)
 
 
 print("================================")
-print("       SENTINEL BACKEND")
+print("       SENTINAL BACKEND")
 print("================================")
-print("Waiting for ESP32 data...\n")
+print("Connecting.... Waiting for ESP32 to respond data...\n")
 
 
 while True:
